@@ -39,8 +39,8 @@ Uma breve lista dos Projetos que serão integrados a Nova Extranet:
 * [Sistema Ação de Fluxo] - Projeto relacionado a Ação de Fluxo
 
 ## TODO
-- [ ] Incluir estilos do Design System
-- [ ] Incluir padrões de Testes
+- [x] Incluir estilos do Design System
+- [x] Incluir padrões de Testes
 
 ## Estrutura
 
