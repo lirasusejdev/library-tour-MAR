@@ -1,0 +1,29 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: microfrontend-template
+  title: Microfrontend Template
+  description: Create a microfrontend for Extranet
+  tags:
+    - recommended
+    - react
+    - extranet
+spec:
+  owner: francisco.ribas@grupoboticario.com.br
+  templater: cra
+  type: website
+  path: '.'
+  schema:
+    required: 
+      - component_id
+    properties:
+      component_id:
+        title: Name
+        type: string
+        pattern: ^[a-z0-9]+(-[a-z0-9]+)*$
+        description: Unique name of the microfrontend. Lowercase, URL-safe characters only.
+      description:
+        title: Description
+        type: string
+        description: Help others understand what this microfrontend is for.
